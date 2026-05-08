@@ -1,0 +1,1 @@
+//! create 5 api urls for all http methods using req.params.id

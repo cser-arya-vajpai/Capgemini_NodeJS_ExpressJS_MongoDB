@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+  </head>
+  <body style="font-family: Arial; background-color: #f2f2f2">
+    <div
+      style="
+        width: 350px;
+        margin: 50px auto;
+        padding: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px gray;
+      "
+    >
+      <h2 style="text-align: center; color: #333">Register Form</h2>
+
+      <form action="/register" method="post">
+        <label>Name</label><br />
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter your name"
+          style="
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid gray;
+            border-radius: 5px;
+          "
+        />
+
+        <label>Email</label><br />
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          style="
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid gray;
+            border-radius: 5px;
+          "
+        />
+
+        <label>PhoneNumber</label><br />
+        <input
+          type="tel"
+          name="tel"
+          placeholder="Enter phone number"
+          style="
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid gray;
+            border-radius: 5px;
+          "
+        />
+
+        <label>City</label><br />
+        <input
+          type="text"
+          name="city"
+          placeholder="Enter your city"
+          style="
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            border: 1px solid gray;
+            border-radius: 5px;
+          "
+        />
+
+        <button
+          type="submit"
+          style="
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(89, 89, 221);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          "
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
